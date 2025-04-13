@@ -9,7 +9,8 @@ const app = express();
 const corsOptions = {
     origin: [
         'http://localhost:3000', // Local development
-        'https://all-projects-client.vercel.app' // Replace with your Vercel domain
+        'https://all-projects-client.vercel.app' ,// Replace with your Vercel domain
+        'https://all-projects-client-git-main-harishsingh-01s-projects.vercel.app'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
