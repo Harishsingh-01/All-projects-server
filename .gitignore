@@ -1,13 +1,10 @@
 # dependencies
 /node_modules
-package-lock.json
 
 # environment variables
 .env
 .env.local
-.env.development
-.env.test
-.env.production
+.env.*.local
 
 # logs
 logs
@@ -24,10 +21,8 @@ pids
 
 # misc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.test
+.env.production
 
 # IDE specific files
 .idea
@@ -39,4 +34,13 @@ pids
 .npm
 
 # Optional eslint cache
-.eslintcache 
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity 
